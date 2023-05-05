@@ -22,7 +22,7 @@ Clone this repository.
 
 `cd docker`
 
-Run install.sh (`./install.sh`): This will do all things. 
+Run `./install.sh`: This will do all things. 
 
 When completed: http://localhost:8888
 
@@ -30,5 +30,5 @@ Enjoy :-)
 
 ## Tested on
 - Ubuntu Linux 22.04
-- Pop OS 22.04
+- Pop!_OS 22.04
 - MacOS Ventura (Apple Silicon)
