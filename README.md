@@ -34,3 +34,5 @@ Enjoy :-)
 - Ubuntu Linux 22.04
 - Pop!_OS 22.04
 - MacOS Ventura (Apple Silicon)
+
+[![asciicast](https://asciinema.org/a/14.png)](https://asciinema.org/a/qc5eIS7yEiQEH3A6Jt71ABmVC)
