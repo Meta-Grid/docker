@@ -35,7 +35,6 @@ Enjoy :-)
 - Pop!_OS 22.04
 - MacOS Ventura (Apple Silicon)
 
+# asciicast
+
 [![asciicast](https://asciinema.org/a/qc5eIS7yEiQEH3A6Jt71ABmVC.png?rows=20)](https://asciinema.org/a/qc5eIS7yEiQEH3A6Jt71ABmVC?rows=20)
-
-
-<script src="https://asciinema.org/a/qc5eIS7yEiQEH3A6Jt71ABmVC.js" id="asciicast-qc5eIS7yEiQEH3A6Jt71ABmVC" async></script>
