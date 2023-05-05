@@ -11,8 +11,9 @@ By default, a clean and empty database will be installed.
 
 If you prefer to start with some examples you can do the following:
 
-After cloning the repo change in the file `dockerfile` the line to
-   `RUN python3 meta-grid_install_or_update.py -u -m=install -initdb=demo`
+After cloning the repo change the following line in the file `dockerfile`:
+
+`RUN python3 meta-grid_install_or_update.py -u -m=install -initdb=demo`
 
 ## Getting started
 Clone this repository.
