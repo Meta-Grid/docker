@@ -17,7 +17,7 @@ After cloning this repo, change (... `-initdb=demo`) the content of the followin
 
 `RUN python3 meta-grid_install_or_update.py -u -m=install -initdb=demo`
 
-## Getting started
+## Getting started 🚀
 Clone this repository.
 
 `git clone https://github.com/Meta-Grid/docker.git`
