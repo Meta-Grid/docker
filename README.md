@@ -11,15 +11,14 @@ By default, a clean and empty database will be installed.
 
 If you prefer to start with some examples you can do the following:
 
-After cloning this repo, change the content of the following line in the file `dockerfile` into (without the `^`):
+After cloning this repo, change (... `-initdb=demo`) the content of the following line in the file `dockerfile` into:
 
-`RUN python3 meta-grid_install_or_update.py -u -m=install -initdb=demo`</br>
-`                                                                 ^^^^`
+`RUN python3 meta-grid_install_or_update.py -u -m=install -initdb=demo`
 
 ## Getting started
 Clone this repository.
 
-`git clone git@github.com:Meta-Grid/docker.git`
+`git clone https://github.com/Meta-Grid/docker.git`
 
 `cd docker`
 
