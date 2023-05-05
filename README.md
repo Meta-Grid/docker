@@ -4,7 +4,9 @@
 This repo contains everything, that is needed to build and run Meta#Grid in a docker container
 
 ## Prerequisites
-Install docker (or Docker Desktop).
+- docker (or Docker Desktop)
+- curl
+- jq or pip (package-management system for Python)
 
 ## Database content
 By default, a clean and empty database will be installed.
