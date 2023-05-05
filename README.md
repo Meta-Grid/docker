@@ -13,7 +13,8 @@ If you prefer to start with some examples you can do the following:
 
 After cloning the repo change the following line in the file `dockerfile`:
 
-`RUN python3 meta-grid_install_or_update.py -u -m=install -initdb=demo`
+`RUN python3 meta-grid_install_or_update.py -u -m=install -initdb=demo`</br>
+`                                                                 ^^^^`
 
 ## Getting started
 Clone this repository.
