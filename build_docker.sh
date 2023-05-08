@@ -21,7 +21,7 @@ rm -R -f installer
 git clone https://github.com/patschwork/meta_grid_install_update.git
 mv meta_grid_install_update installer
 cd installer
-python update.py
+python3 update.py
 mgInstallUpdateToolOK=$?
 if [ $mgInstallUpdateToolOK -ne 0 ]
 then
