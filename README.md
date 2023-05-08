@@ -24,7 +24,7 @@ Clone this repository.
 
 `cd docker`
 
-Run `./install.sh`: This will do all things. 
+Run `./install_docker.sh`: This will do all things. 
 
 When completed: http://localhost:8888
 
