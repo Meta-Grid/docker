@@ -3,6 +3,9 @@
 ## About
 This repo contains everything, that is needed to build and run Meta#Grid in a docker container
 
+## Docs
+[Read the docs](https://docs.meta-grid.com/#/page/administration%2Finstallation%20and%20updates%2Finstallation-docker)
+
 ## Prerequisites
 - docker (or Docker Desktop)
 - git client
