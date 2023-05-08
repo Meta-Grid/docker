@@ -17,4 +17,4 @@ docker run -i -v $PWD/db:/opt/meta_grid/db -p 8888:80 --name meta_grid -t meta_g
 docker kill meta_grid
 docker rm meta_grid
 
-./run.sh
+./run_docker.sh

@@ -21,8 +21,13 @@ rm -R -f installer
 git clone https://github.com/patschwork/meta_grid_install_update.git
 mv meta_grid_install_update installer
 cd installer
-chmod +x update.sh
-./update.sh
+python update.py
+mgInstallUpdateToolOK=$?
+if [ $mgInstallUpdateToolOK -ne 0 ]
+then
+      echo "There was an error on installing the Meta#Grid Installer-and-Updater-Tool"
+      exit
+fi
 cd ..
 
 export DOCKER_BUILDKIT=0 

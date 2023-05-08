@@ -2,11 +2,11 @@
 
 cd "${0%/*}"
 
-chmod +x build.sh
-chmod +x run.sh
-chmod +x update.sh
+chmod +x build_docker.sh
+chmod +x run_docker.sh
+chmod +x update_docker.sh
 
-./build.sh
+./build_docker.sh
 
 mkdir -p db
 # copy the database file to host
@@ -28,4 +28,4 @@ docker kill meta_grid_install
 docker rm meta_grid_install
 
 # run the final version with volume mount
-./run.sh
+./run_docker.sh
