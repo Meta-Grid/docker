@@ -13,6 +13,7 @@ docker kill meta_grid
 docker rm meta_grid
 
 # Do a new build
+chmod +x build_docker.sh
 ./build_docker.sh
 
 # use this as update for the database schema
