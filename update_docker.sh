@@ -6,6 +6,7 @@ cd "${0%/*}"
 git checkout .
 git reset
 git pull
+chmod +x update_docker.sh
 
 # stop and remove running instance
 docker kill meta_grid
