@@ -6,15 +6,14 @@ cd "${0%/*}"
 docker kill meta_grid
 docker rm meta_grid
 
-# inside update with a new docker pull or build.sh ????
+# Do a new build
+./build_docker.sh
 
-# this will update the database schema at least
-docker run -i -v $PWD/db:/opt/meta_grid/db -p 8888:80 --name meta_grid -t meta_grid:latest /bin/bash -c 'cd /opt/meta_grid_updater; python3 meta-grid_install_or_update.py -u -m=update'
-
-# will this also work for inside updates ????
+# use this as update for the database schema
+docker run -i -v $PWD/db:/opt/meta_grid/db -p 8888:80 --name meta_grid_update_db -t meta_grid:latest /bin/bash -c 'cd /opt/meta_grid_updater; python3 meta-grid_install_or_update.py -u -m=update'
 
 # stop and remove running instance
-docker kill meta_grid
-docker rm meta_grid
+docker kill meta_grid_update_db
+docker rm meta_grid_update_db
 
 ./run_docker.sh
