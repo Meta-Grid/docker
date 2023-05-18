@@ -18,7 +18,7 @@ if [ -f "$FILE" ]; then
 fi
 
 # run without volume mount
-docker run -d -p 8888:80 --name meta_grid_install -t meta_grid:latest
+docker run -d --name meta_grid_install -t meta_grid:latest
 
 # copy the file
 docker cp meta_grid_install:/opt/meta_grid/db/dwh_meta_inside_docker_container.sqlite $FILE
