@@ -9,6 +9,7 @@ WORKDIR /opt/meta_grid_updater
 COPY installer .
 RUN python3 meta-grid_install_or_update.py -u -m=install -initdb=clean
 RUN mv /opt/meta_grid/db/dwh_meta.sqlite /opt/meta_grid/db/dwh_meta_inside_docker_container.sqlite
+RUN echo 'memory_limit = -1' >> /etc/php/8.1/apache2/conf.d/docker-php-memlimit.ini;
 EXPOSE 80
 CMD ["apachectl", "-D", "FOREGROUND"]
 
